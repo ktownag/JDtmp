@@ -202,7 +202,7 @@ function interact_template_getLotteryResult(timeout = 0) {
           'Cookie' : cookie,
           'Connection' : `keep-alive`,
           'Accept' : `application/json, text/plain, */*`,
-          'Referer' : `https://h5.m.jd.com/babelDiy/Zeus/2WBcKYkn8viyxv7MoKKgfzmu7Dss/index.html
+          'Referer' : `https://h5.m.jd.com/babelDiy/Zeus/2WBcKYkn8viyxv7MoKKgfzmu7Dss/index.html?inviteId=`,//?inviteId= 
           'Host' : `api.m.jd.com`,
           'Accept-Encoding' : `gzip, deflate, br`,
           'Accept-Language' : `zh-cn`
