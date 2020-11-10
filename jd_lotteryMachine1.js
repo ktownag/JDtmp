@@ -20,7 +20,7 @@ const STRSPLIT = "|";
 const needSum = false;     //是否需要显示汇总
 const printDetail = false;        //是否显示出参详情
 const appIdArr = ['1EFRQxQ','1EFRQxA','1EFRQxw','1EFRQyw','1EFRRxA','1EFRQwA']
-const shareCodeArr = ['P04z54XCjVXmYaW5m9cZ2f433tIlGBj3JnLHD0','P04z54XCjVXmIaW5m9cZ2f433tIlGWEga-IO2o','P04z54XCjVXm4aW5m9cZ2f433tIlINrBDzgMdY','P04z54XCjVXl4aW5m9cZ2f433tIlHQIDDSzFzg','P04z54XCjVWmIaW5m9cZ2f433tIlJz4FjX2kfk','P04z54XCjVXnIaW5m9cZ2f433tIlLKXiUijZw4']
+const shareCodeArr = ['']
 //const funPrefixArr = ['interact_template','interact_template','wfh']
 //IOS等用户直接用NobyDa的jd cookie
 let cookiesArr = [], cookie = '';
@@ -169,7 +169,7 @@ function harmony_collectScore(taskToken,taskId,timeout = 0) {
           'Cookie' : cookie,
           'Connection' : `keep-alive`,
           'Accept' : `application/json, text/plain, */*`,
-          'Referer' : `https://h5.m.jd.com/babelDiy/Zeus/2WBcKYkn8viyxv7MoKKgfzmu7Dss/index.html`,//?inviteId=P225KkcRx4b8lbWJU72wvZZcwCjVXmYaS5jQ P225KkcRx4b8lbWJU72wvZZcwCjVXmYaS5jQ?inviteId=${shareCode}
+          'Referer' : `https://h5.m.jd.com/babelDiy/Zeus/2WBcKYkn8viyxv7MoKKgfzmu7Dss/index.html`,
           'Host' : `api.m.jd.com`,
           'Accept-Encoding' : `gzip, deflate, br`,
           'Accept-Language' : `zh-cn`
@@ -202,7 +202,7 @@ function interact_template_getLotteryResult(timeout = 0) {
           'Cookie' : cookie,
           'Connection' : `keep-alive`,
           'Accept' : `application/json, text/plain, */*`,
-          'Referer' : `https://h5.m.jd.com/babelDiy/Zeus/2WBcKYkn8viyxv7MoKKgfzmu7Dss/index.html?inviteId=P04z54XCjVXmYaW5m9cZ2f433tIlGBj3JnLHD0`,//?inviteId=P225KkcRx4b8lbWJU72wvZZcwCjVXmYaS5jQ P225KkcRx4b8lbWJU72wvZZcwCjVXmYaS5jQ
+          'Referer' : `https://h5.m.jd.com/babelDiy/Zeus/2WBcKYkn8viyxv7MoKKgfzmu7Dss/index.html
           'Host' : `api.m.jd.com`,
           'Accept-Encoding' : `gzip, deflate, br`,
           'Accept-Language' : `zh-cn`
